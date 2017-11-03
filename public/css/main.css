@@ -1,0 +1,287 @@
+html, body {
+  height: 100%; }
+
+@font-face {
+  font-family: 'lato-regular';
+  src: url("../fonts/Lato-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'monte-bold';
+  src: url("../fonts/Montserrat-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: 'monte-light';
+  src: url("../fonts/Montserrat-Light.ttf") format("truetype"); }
+@font-face {
+  font-family: 'monte-regular';
+  src: url("../fonts/Montserrat-Regular.ttf") format("truetype"); }
+.font-lato-regular {
+  font-family: lato-regular;
+  font-weight: normal; }
+
+.font-monte-bold {
+  font-family: monte-bold;
+  font-weight: normal; }
+
+.font-monte-light {
+  font-family: monte-light;
+  font-weight: normal; }
+
+.font-monte-regular {
+  font-family: monte-regular;
+  font-weight: normal; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #666; }
+
+.navbar {
+  padding-right: 6.5%; }
+
+.nav-item a {
+  text-decoration: none;
+  color: #666;
+  font-family: monte-light; }
+
+.carousel-item img {
+  height: 100%;
+  width: 100%; }
+
+.carousel-control-prev, .carousel-control-next {
+  width: 5%; }
+
+#oxygen-carousel {
+  position: relative; }
+
+.privacy-policy .col-12 {
+  padding: 5%; }
+.privacy-policy p {
+  font-size: 15px; }
+
+.footer-links p, .footer-links a {
+  color: white; }
+
+.footer-bg {
+  background-color: #0e2e46; }
+  .footer-bg p {
+    font-family: monte-light;
+    margin: 0; }
+
+.main-div {
+  height: 78%;
+  width: 100%;
+  display: table; }
+
+.thanks-div {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center; }
+  .thanks-div h1 {
+    font-size: 8vw; }
+  .thanks-div h2 {
+    font-size: 5vw; }
+
+.thankyou-footer {
+  width: 100%;
+  padding: 2%; }
+
+#about-oxygen .left {
+  background-color: #0e2e46; }
+  #about-oxygen .left h2 {
+    font-family: monte-bold;
+    color: white;
+    padding-top: 18%;
+    padding-bottom: 15%;
+    font-size: 2.5em; }
+  #about-oxygen .left p {
+    color: white;
+    font-family: monte-light; }
+
+.border-right {
+  border-right: solid 2px #fff; }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #about-oxygen .left h2 {
+    font-size: 22px;
+    line-height: 1.5; }
+  #about-oxygen .left p {
+    padding-bottom: 32px;
+    font-size: 20px;
+    line-height: 1.3; }
+
+  #oxygen-form h1 {
+    font-size: 15px; } }
+@media (min-width: 992px) {
+  .mb-lg-30 {
+    margin-bottom: 15%;
+    margin-top: 10%; }
+
+  #about-oxygen .left p {
+    font-size: 25px;
+    line-height: 1.7; }
+
+  #oxygen-form h1 {
+    font-size: 25px; } }
+@media (min-width: 768px) {
+  .px-md-60 {
+    padding-left: 60px;
+    padding-right: 60px; }
+
+  .mgb-md-5 {
+    margin-bottom: 5%; }
+
+  #gallery .bg {
+    background-color: #0e2e46; }
+    #gallery .bg h3 {
+      color: white;
+      margin: 0;
+      font-family: monte-bold; }
+    #gallery .bg .carousel-item img {
+      width: 25%;
+      height: 100%; }
+  #gallery .footer-links {
+    align-items: center; }
+    #gallery .footer-links p {
+      font-family: monte-light;
+      color: white;
+      margin: 0; }
+
+  #carousel-icons {
+    position: absolute;
+    width: 68%;
+    bottom: 0; }
+    #carousel-icons .icons {
+      background-color: white;
+      border-radius: 100%;
+      padding: 8%;
+      font-size: 50px;
+      margin: 5%; }
+    #carousel-icons p {
+      color: #fff;
+      font-family: monte-regular; }
+
+  #oxygen-form {
+    position: absolute;
+    top: 0;
+    width: 25%;
+    right: 7%; } }
+@media (max-width: 767px) {
+  .px-md-60 {
+    padding-left: 60px;
+    padding-right: 60px; }
+
+  .mgb-md-5 {
+    margin-bottom: 5%; }
+
+  #carousel-icons .row {
+    padding-top: 30px; }
+  #carousel-icons .icons {
+    color: white;
+    background-color: black;
+    border-radius: 100%;
+    padding: 8%;
+    font-size: 50px;
+    margin: 5%; }
+  #carousel-icons p {
+    color: #666;
+    font-size: 15px;
+    font-family: monte-regular; }
+
+  #oxygen-form h1 {
+    font-size: 25px; }
+
+  #gallery .bg {
+    background-color: #0e2e46; }
+    #gallery .bg h3 {
+      color: white;
+      margin: 0;
+      font-family: monte-bold; }
+    #gallery .bg .carousel-item img {
+      width: 50%;
+      height: 100%; }
+  #gallery .footer-links {
+    align-items: center; }
+    #gallery .footer-links p {
+      color: white;
+      margin: 0;
+      font-size: 10px;
+      font-family: monte-regular; }
+
+  .fs-25 {
+    font-size: 25px; }
+
+  #about-oxygen .left h2 {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: monte-bold; }
+  #about-oxygen .left p {
+    padding-bottom: 32px;
+    font-size: 18px;
+    line-height: 1.5; } }
+#loginform {
+  padding: 15%; }
+  #loginform form .btn-primary {
+    width: 100%; }
+
+#oxygen-form {
+  height: 100%;
+  background-color: #2f3138; }
+  #oxygen-form input::placeholder {
+    color: white; }
+  #oxygen-form form .submit-button .form-control {
+    background-color: #fff;
+    color: #2f3138;
+    border-color: #fff; }
+  #oxygen-form h1 {
+    color: white;
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    font-family: monte-regular; }
+  #oxygen-form .form-control {
+    color: white;
+    background-color: transparent;
+    border: solid 1px #fff;
+    border-radius: 10px;
+    font-family: lato-regular; }
+  #oxygen-form .form-group ul li {
+    display: inline-block; }
+
+.bg-white {
+  background-color: #fff; }
+
+.location h2 {
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-family: monte-bold; }
+.location p {
+  font-family: monte-light;
+  font-size: 20px; }
+
+#services i {
+  font-size: 50px;
+  border-radius: 100%;
+  padding: 5%;
+  border: solid 2px black; }
+#services h3 {
+  font-family: monte-bold; }
+#services p {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-family: monte-regular; }
+
+.buttonstyle {
+  text-align: right;
+  padding-top: 10px; }
+
+.button {
+  background: #9BBB68;
+  padding: 8px;
+  font-family: circular-medium;
+  font-size: 14px;
+  color: #000000; }
+
+a.button:hover {
+  text-decoration: none;
+  color: #000000; }
+
+/*# sourceMappingURL=main.css.map */

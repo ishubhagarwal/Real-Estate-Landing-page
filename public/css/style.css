@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'oxygen';
+  src:
+    url('../fonts/icons/oxygen.ttf?rhru6u') format('truetype'),
+    url('../fonts/icons/oxygen.woff?rhru6u') format('woff'),
+    url('../fonts/icons/oxygen.svg?rhru6u#oxygen') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'oxygen' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.oxygen-diamond:before {
+  content: "\e900";
+}
+.oxygen-cinema:before {
+  content: "\e901";
+}
+.oxygen-retweet-arrows:before {
+  content: "\e902";
+}
+.oxygen-circular-clock:before {
+  content: "\e903";
+}
+.oxygen-weightlifting:before {
+  content: "\e904";
+}
+.oxygen-web-house:before {
+  content: "\e905";
+}
+.oxygen-parking:before {
+  content: "\e906";
+}
+.oxygen-terrace:before {
+  content: "\e907";
+}
+.oxygen-phone:before {
+  content: "\e942";
+}
+.oxygen-location:before {
+  content: "\e947";
+  font-size: 50px;
+}
